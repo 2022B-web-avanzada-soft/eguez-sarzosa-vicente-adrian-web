@@ -31,8 +31,124 @@ console.log(typeof booleano);
 console.log(typeof hijos);
 console.log(typeof zapatos);
 
+// Truty Falsy
+if (true === true) {
+    console.log("Es verdadero"); //!
+} else {
+    console.log("Es Falso");
+}
+if (true === false) {
+    console.log("Es verdadero");
+} else {
+    console.log("Es Falso"); //!
+} // node 01-variables.js
+if ("") {
+    console.log("String vacio Es verdadero");
+} else {
+    console.log("String vacio Es Falsy");
+}
+if ("Adrian") {
+    console.log("String con datos Es truty");
+} else {
+    console.log("String con datos Falso");
+}
+if(-1){
+    console.log("Negativos Es truty"); //
+}else{
+    console.log("Negativos Es Falso");
+}
+if(0){
+    console.log("Cero Es truty");
+}else{
+    console.log("Cero Es Falso"); //
+}
+if(1){
+    console.log("Positivos Es truty"); //
+}else{
+    console.log("Positivos Es Falso");
+}
+if(null){
+    console.log("Null Es truty");
+}else{
+    console.log("Null Es Falso"); // Falsy
+}
+if(undefined){
+    console.log("Undefined Es truty");
+}else{
+    console.log("Undefined Es Falso");  // Falsy
+}
 
+// Orden de importancia
+// 1) "const"
+// 2) "let"
+// 3) X -> "var"
 
+const adrian = {
+    "nombre": "Adrian", // llave: valor,
+    'apellido': 'Eguez',
+    edad: 32,
+    hijos: null,
+    zapatos: undefined,
+    casado: false,
+    ropa: {
+        color: 'plomo',
+        talla: '40',
+    },
+    mascotas: ['Cachetes', 'Pequitas', 'Panda'],
+};
+console.log(adrian);
+// Acceder a las propiedades del objeto
+adrian.nombre; // "Adrian"
+adrian.apellido; // 'Eguez'
+adrian["nombre"]; // "Adrian"
+// Cambiar valores
+adrian.nombre = "Vicente";
+adrian["nombre"] = "Adrian";
+// Crear nuevos atributos o metodos dentro del objeto
+adrian.sueldo; // undefined
+console.log(adrian.sueldo);
+adrian.sueldo = 1.2;
+console.log(adrian.sueldo); // 1.2
+adrian["gastos"] = 0.8;
+console.log(adrian.gastos); // 0.8
+console.log(adrian);
+
+// Borrar el valor de una propiedad
+adrian.nombre = undefined;
+console.log(adrian);
+console.log(Object.keys(adrian));
+console.log(Object.values(adrian));
+// DELETE la llave y el valor dentro del objeto
+delete adrian.nombre; // Eliminar la llave "nombre"
+console.log(Object.keys(adrian));
+console.log(adrian);
+
+// Variables por valor o referencia?
+// Variables por valor en JS son las primitivas: number, string, boolean
+let edadAdrian = 32;
+let edadVicente = edadAdrian; // Guardamos una primitiva en otra variable
+                              // Variables por valor
+console.log(edadAdrian); // 32
+console.log(edadVicente); // 32
+edadAdrian = edadAdrian + 1;
+console.log(edadAdrian); // 33
+console.log(edadVicente); // 32
+
+// Variables por referencia: object ({},[])
+let notas = {
+    total: 10
+};
+let notasSegundoBimestre = notas; // IGUALANDO LA REFERENCIA
+notasSegundoBimestre.total = notasSegundoBimestre.total + 1;
+console.log(notas);
+console.log(notasSegundoBimestre);
+// Como clonar objetos
+let notasTercerBimestre = Object.assign({}, notas);
+// Object.assign([], arreglo);
+notasTercerBimestre.total = notasTercerBimestre.total + 1;
+console.log('notas', notas);
+console.log('notasSegundoBimestre', notasSegundoBimestre);
+console.log('notasTercerBimestre', notasTercerBimestre);
 
 
 
