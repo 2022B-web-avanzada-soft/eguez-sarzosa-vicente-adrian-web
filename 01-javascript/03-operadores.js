@@ -77,7 +77,6 @@ const arreglo = [
 
     },
 
-
     {
 
 
@@ -88,6 +87,7 @@ const arreglo = [
 
 
         nota: 19
+
 
 
     },
@@ -154,3 +154,135 @@ const arreglo = [
 
 
 ];
+
+// FUNCIONES COMO PARAMETROS
+// FIND
+// enviamos una expresion -> TRUTY FALSY
+// devuelve el primero que cumpla esa condicion
+const respuestaFind = arreglo
+    .find(
+        function (valorActual, indiceActual, arregloCompleto) {
+            console.log('valorActual', valorActual);
+            console.log('indiceActual', indiceActual);
+            console.log('arregloCompleto', arregloCompleto);
+            return valorActual.nota <= 5; // EXPRESION = = =
+        }
+    );
+console.log('respuestaFind', respuestaFind);  // Cristian // Si no encuentra devuelve undefined
+
+
+// FINDINDEX
+// enviamos una expresion -> TRUTY FALSY
+// devuelve el indice del primero que cumpla esa condicion
+const respuestaIndex = arreglo
+    .findIndex(
+        function (valorActual, indiceActual, arregloCompleto) {
+            return valorActual.nombre === "Cristian";
+        }
+    );
+console.log('respuestaIndex', respuestaIndex);  // indice -> 6 // No encuentra ->
+
+// for (let i; i>arreglo.length; i--){
+//     console.log('valorActual', arreglo[i]);
+// }
+
+// FOREACH
+// itera el arreglo
+const respuestaForEach = arreglo
+    .forEach(
+        function (valorActual, indiceActual, arregloCompleto) {
+            console.log('valorActual', valorActual);
+        }
+    );
+console.log('respuestaForEach', respuestaForEach);  // undefined
+
+// MAP (Modificar o MUTAR el arreglo y devuelve un nuevo arreglo
+// enviamos los datos del nuevo arreglo
+// devuelve el nuevo arreglo
+const respuestaMap = arreglo
+    .map(
+        (valorActual, indiceActual, arregloCompleto) => {
+            const notaActual = valorActual.nota + 1;
+            const nuevoElemento = {
+                id: valorActual.id,
+                nombre: valorActual.nombre,
+                nota: notaActual,
+                estaAprobado: notaActual > 14,
+                casado: false,
+            };
+            return nuevoElemento;
+        }
+    );
+console.log('respuestaMap', respuestaMap);
+console.log('arreglo', arreglo);
+
+// FILTER (filtrar el arreglo)
+// enviamos EXPRESION TRUTY FALSY
+// devuelve los elementos que cumplen esa condicion
+
+const respuestaFilter = arreglo
+    .filter(
+        (valorActual, indiceActual, arregloCompleto) => {
+            return valorActual.nota >= 14;
+        }
+    );
+console.log('respuestaFilter', respuestaFilter);
+console.log('arreglo', arreglo);
+
+// SOME -> expresion
+// DEVUELVE BOOLEANO
+// Hay ALGUNA nota menor a nueve? SI NO
+// OR
+const respuestaSome = arreglo
+    .some(
+        function (valorActual, indiceActual, arregloCompleto)  {
+            return valorActual.nota < 9;
+        }
+    );
+console.log('respuestaSome', respuestaSome);
+// EVERY -> expresion
+// DEVUELVE BOOLEANO
+// TODAS las nota son mayores a 14? SI NO
+// AND
+const respuestaEvery = arreglo
+    .every(
+        function (valorActual, indiceActual, arregloCompleto) {
+            return valorActual.nota > 14;
+        }
+    );
+console.log('respuestaEvery', respuestaEvery);
+
+// REDUCE           izq -> der
+// REDUCE RIGHT     der -> izq
+// [1,2,3,5,6,5,4,3,1]
+// 0 -> Variable inicial
+// OPERACION
+// 0 + 1
+// 1 + 2
+// 3 + 3
+// 100 -> Variable inicial
+// 100 - 1
+// 99 - 2
+// 97 - 3
+// 94
+
+
+// 100 <3 Puntos de vida
+// 100 -1 -2 -3 -5 -6 -5 -4 -3 -1 =
+// 0 1 + 2 + 3 + 4 + 6 + 5 + 4 + 3 + 1 =
+// [1,2,3,5,6,5,4,3,1]
+const respuestaReduce = arreglo
+    .reduce(
+        function (valorAcumulado, valorActual, indice, arreglo) {
+            return (valorAcumulado + valorActual.nota);
+        },
+        0 // Acumulador
+    );
+console.log(respuestaReduce); // 146
+console.log(respuestaReduce / arreglo.length); // 14,6
+
+arreglo.filter((a)=>a.nota < 14)
+    .map((e)=> e.nota + 1 )
+    .some((e)=> e > 14);
+
+
