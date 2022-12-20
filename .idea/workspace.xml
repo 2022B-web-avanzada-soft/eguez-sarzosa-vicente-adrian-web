@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="" />
+    <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/01-javascript/09-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-typescript/01-variables.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-typescript/02-interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-typescript/03-funciones.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-typescript/04-clases.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-javascript/08-promesas.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/08-promesas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-javascript/proyecto-node/09-inquirer.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/proyecto-node/09-inquirer.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -29,20 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/LabP3101/Documents/Github/web avanzada/eguez-sarzosa-vicente-adrian-web/01-javascript/proyecto-node",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LabP3101/Documents/Github/web avanzada/eguez-sarzosa-vicente-adrian-web/01-javascript/proyecto-node&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/291/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\01-javascript\proyecto-node" />
@@ -52,7 +63,7 @@
       <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\01-javascript\proyecto-node" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.09-inquirer.js">
+  <component name="RunManager" selected="Node.js.09-json.js">
     <configuration name="07-promesas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/07-promesas.js" working-dir="$PROJECT_DIR$/01-javascript">
       <method v="2" />
     </configuration>
@@ -62,8 +73,12 @@
     <configuration name="09-inquirer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/proyecto-node/09-inquirer.js" working-dir="$PROJECT_DIR$/01-javascript/proyecto-node">
       <method v="2" />
     </configuration>
+    <configuration name="09-json.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/09-json.js" working-dir="$PROJECT_DIR$/01-javascript">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.09-json.js" />
         <item itemvalue="Node.js.09-inquirer.js" />
         <item itemvalue="Node.js.08-promesas.js" />
         <item itemvalue="Node.js.07-promesas.js" />
@@ -83,11 +98,18 @@
       <workItem from="1670533008297" duration="249000" />
       <workItem from="1670533265121" duration="4715000" />
       <workItem from="1671138759311" duration="6166000" />
+      <workItem from="1671538332816" duration="5206000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/02-typescript/01-variables.js" />
+        <option value="$PROJECT_DIR$/02-typescript/02-interfaces.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
