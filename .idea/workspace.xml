@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01-javascript/09-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-typescript/01-variables.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-typescript/02-interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-typescript/03-funciones.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-typescript/04-clases.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/08-promesas.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/08-promesas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/proyecto-node/09-inquirer.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/proyecto-node/09-inquirer.js" afterDir="false" />
-    </list>
+    <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +41,6 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/291/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -97,8 +87,8 @@
       <workItem from="1669064700488" duration="5340000" />
       <workItem from="1670533008297" duration="249000" />
       <workItem from="1670533265121" duration="4715000" />
-      <workItem from="1671138759311" duration="6166000" />
-      <workItem from="1671538332816" duration="5206000" />
+      <workItem from="1671138759311" duration="7270000" />
+      <workItem from="1671743666081" duration="1359000" />
     </task>
     <servers />
   </component>
