@@ -25,6 +25,9 @@ export default function a_hola_mundo(){
                         mostrar={true}
                         url={'http://google.com'}
             ></Componente>
+            <Componente iteraciones={12}
+                        url={'http://google.com'}
+            ></Componente>
         </>
     )
 }
