@@ -17,9 +17,6 @@ export default function () {
         edad: 33,
         casado: true,
     } as Usuario)
-    setUsuario({nombre: "Vicente", edad: 32, casado: false, hijos: []})
-
-
     return (<>
         <button className="bg-blue-500" onClick={(event)=>{
             event.preventDefault();

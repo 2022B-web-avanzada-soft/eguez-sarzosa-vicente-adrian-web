@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/c_use_state/EjemploUseState.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/c_use_state.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/c_use_state/EjemploUseState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/c_use_state/EjemploUseState.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <workItem from="1670533265121" duration="4715000" />
       <workItem from="1671138759311" duration="7270000" />
       <workItem from="1671743666081" duration="4825000" />
-      <workItem from="1673299609281" duration="4839000" />
+      <workItem from="1673299609281" duration="5046000" />
     </task>
     <servers />
   </component>
