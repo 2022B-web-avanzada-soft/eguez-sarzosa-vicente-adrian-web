@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/HookCustom.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/hooks/useSelectMoneda.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/interfaces/moneda.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/d_hook_custom.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/c_use_state/EjemploUseState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/c_use_state/EjemploUseState.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +14,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -39,26 +30,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/server-pampa/Documents/2022B/web-avanzada/eguez-sarzosa-vicente-adrian-web/react-nextjs/pages&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/server-pampa/Documents/2022B/web-avanzada/eguez-sarzosa-vicente-adrian-web/react-nextjs/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/LabP3101/Documents/Github/web avanzada/eguez-sarzosa-vicente-adrian-web/react-nextjs/pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\Users\\LabP3101\\Documents\\Github\\web avanzada\\eguez-sarzosa-vicente-adrian-web\\react-nextjs\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/react-nextjs/pages" />
+      <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\react-nextjs\pages" />
+      <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\react-nextjs\components\e_use_context" />
       <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\01-javascript\proyecto-node" />
       <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\01-javascript\proyecto-dos" />
     </key>
@@ -101,9 +92,9 @@
       <workItem from="1670533008297" duration="249000" />
       <workItem from="1670533265121" duration="4715000" />
       <workItem from="1671138759311" duration="7270000" />
-      <workItem from="1671743666081" duration="4825000" />
-      <workItem from="1673299609281" duration="5046000" />
-      <workItem from="1673352754902" duration="5841000" />
+      <workItem from="1671743666081" duration="13231000" />
+      <workItem from="1673556843639" duration="176000" />
+      <workItem from="1673557038843" duration="5475000" />
     </task>
     <servers />
   </component>
