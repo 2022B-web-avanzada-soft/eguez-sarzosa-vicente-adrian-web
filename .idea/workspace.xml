@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="" />
+    <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/monedas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/f_ejemplo_criptomonedas/CryptoFormulario.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/f_ejemplo_criptomonedas.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/HookCustom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/HookCustom.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/c_use_state.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/c_use_state.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/d_hook_custom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/d_hook_custom.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/e_use_context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/e_use_context.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +26,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -42,7 +54,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "terminal",
-    "ts.external.directory.path": "C:\\Users\\LabP3101\\Documents\\Github\\web avanzada\\eguez-sarzosa-vicente-adrian-web\\react-nextjs\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "/home/server-pampa/Documents/2022B/web-avanzada/eguez-sarzosa-vicente-adrian-web/react-nextjs/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
