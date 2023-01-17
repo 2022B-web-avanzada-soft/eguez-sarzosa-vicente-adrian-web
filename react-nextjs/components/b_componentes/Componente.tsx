@@ -31,7 +31,7 @@ export default function (props: PropiedadesComponente){
             <a target="_blank" href={url}>IR A GOOGLE</a>
             {/*{mostrar ? <p>Hello</p> : <></>}*/}
             {contenidoCondicional()}
-            {mostrar &&
+            { mostrar &&
                 <h1>Si muestra</h1>
             }
 
