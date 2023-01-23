@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/f_ejemplo_criptomonedas/CryptoFormulario.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/f_ejemplo_criptomonedas/CryptoFormulario.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-nextjs/pages/f_ejemplo_criptomonedas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/f_ejemplo_criptomonedas.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +98,7 @@
       <workItem from="1671743666081" duration="13231000" />
       <workItem from="1673556843639" duration="176000" />
       <workItem from="1673557038843" duration="5475000" />
-      <workItem from="1673956174346" duration="5030000" />
+      <workItem from="1673956174346" duration="5979000" />
     </task>
     <servers />
   </component>
