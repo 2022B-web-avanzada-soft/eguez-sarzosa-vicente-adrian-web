@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/g_konsta.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/g_mui.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/h_react_hook_form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/h_react_hook_form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/h_react_hook_form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +100,7 @@
       <workItem from="1673556843639" duration="176000" />
       <workItem from="1673557038843" duration="5475000" />
       <workItem from="1673956174346" duration="5979000" />
-      <workItem from="1674508788544" duration="5105000" />
+      <workItem from="1674508788544" duration="10637000" />
     </task>
     <servers />
   </component>
