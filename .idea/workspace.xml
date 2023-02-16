@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/i_websockets/MensajeChat.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/i_websockets.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/i_todos/[IdTodo]/hijos_todos/[idHijosTodos].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/i_todos/[idTodo]/hijos_todos/[idHijosTodos].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/i_todos/[IdTodo]/hijos_todos/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/i_todos/[idTodo]/hijos_todos/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/i_websockets.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/i_websockets.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -39,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/server-pampa/Documents/Gitlab/esoft/facturacion-electronica",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "ts.external.directory.path": "/home/server-pampa/Documents/2022B/web-avanzada/eguez-sarzosa-vicente-adrian-web/react-nextjs/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/server-pampa/Documents/Gitlab/backend-facturacion-electronica&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/server-pampa/Documents/2022B/web-avanzada/eguez-sarzosa-vicente-adrian-web/04-nestjs-websockets/websockets/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\react-nextjs\pages" />
@@ -63,6 +58,7 @@
       <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\01-javascript\proyecto-dos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-nestjs-websockets/websockets" />
       <recent name="C:\Users\LabP3101\Documents\Github\web avanzada\eguez-sarzosa-vicente-adrian-web\01-javascript\proyecto-node" />
     </key>
   </component>
@@ -109,6 +105,10 @@
       <workItem from="1675166805985" duration="6804000" />
       <workItem from="1675371910631" duration="1902000" />
       <workItem from="1675772517731" duration="11149000" />
+      <workItem from="1676249211348" duration="5708000" />
+      <workItem from="1676378561345" duration="3528000" />
+      <workItem from="1676390548649" duration="2245000" />
+      <workItem from="1676581302975" duration="5354000" />
     </task>
     <servers />
   </component>
