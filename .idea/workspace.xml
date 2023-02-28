@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="10404a3c-15e2-4252-a53b-5ff9d55ad998" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/i_websockets.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/i_websockets.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/server-pampa/Documents/Gitlab/backend-facturacion-electronica&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/server-pampa/Documents/Gitlab/starters-vendure-back&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -109,6 +108,9 @@
       <workItem from="1676378561345" duration="3528000" />
       <workItem from="1676390548649" duration="2245000" />
       <workItem from="1676581302975" duration="5354000" />
+      <workItem from="1677255511038" duration="666000" />
+      <workItem from="1677505202529" duration="1790000" />
+      <workItem from="1677587106415" duration="3743000" />
     </task>
     <servers />
   </component>
