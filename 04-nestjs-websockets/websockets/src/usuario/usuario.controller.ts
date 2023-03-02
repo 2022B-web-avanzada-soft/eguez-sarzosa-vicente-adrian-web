@@ -104,6 +104,7 @@ export class UsuarioController{
         @Query() queryParams
     ) {
         const consulta: FindManyOptions<UsuarioEntity> = {
+            relations: ['notas'],
             // select: ['id'], // Select
             // relations: { //  Relaciones
             //     notas: true
